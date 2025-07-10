@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "skkuding_nodejs_study",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

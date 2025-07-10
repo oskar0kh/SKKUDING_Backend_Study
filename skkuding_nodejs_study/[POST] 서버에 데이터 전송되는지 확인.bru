@@ -1,0 +1,19 @@
+meta {
+  name: [POST] 서버에 데이터 전송되는지 확인
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/code
+  body: text
+  auth: inherit
+}
+
+body:text {
+  print('Hello')
+}
+
+body:form-urlencoded {
+  description: print('Hello');
+}
